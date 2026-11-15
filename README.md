@@ -71,6 +71,44 @@ executables or game data.
 
 ---
 
+## Screenshots
+
+### Sega Saturn vs HD Remaster
+
+*Press **F9** in game to switch between them.*
+
+**Title screen with the HD logo**
+
+![Title screen with the HD logo](media/saturn_vs_hd/01_title.jpg)
+
+**PC Options inside the game menu**
+
+![PC Options inside the game menu](media/saturn_vs_hd/02_pc_options.jpg)
+
+**Character select with the HD portraits**
+
+![Character select with the HD portraits](media/saturn_vs_hd/03_character_select.jpg)
+
+**Dialogue with vector fonts and the HD face (Spanish)**
+
+![Dialogue with vector fonts and the HD face (Spanish)](media/saturn_vs_hd/04_dialogue.jpg)
+
+**The Colosseum in 16:9 widescreen with HD backgrounds**
+
+![The Colosseum in 16:9 widescreen with HD backgrounds](media/saturn_vs_hd/05_colosseum.jpg)
+
+### HD Remaster in 16:9
+
+<p align="center">
+  <img src="media/screenshots/01_tavern.jpg" width="49%">
+  <img src="media/screenshots/02_tavern_fight.jpg" width="49%">
+  <img src="media/screenshots/03_town.jpg" width="49%">
+  <img src="media/screenshots/04_town_beam.jpg" width="49%">
+  <img src="media/screenshots/05_town_magic.jpg" width="49%">
+</p>
+
+---
+
 ## Roadmap
 
 | Status | Feature |

@@ -72,6 +72,44 @@ ejecutables ni datos del juego.
 
 ---
 
+## Capturas
+
+### Sega Saturn frente a HD Remaster
+
+*Pulsa **F9** en el juego para cambiar de una a otra.*
+
+**Pantalla de título con el logo HD**
+
+![Pantalla de título con el logo HD](media/saturn_vs_hd/01_title.jpg)
+
+**Ajustes PC dentro del menú del juego**
+
+![Ajustes PC dentro del menú del juego](media/saturn_vs_hd/02_pc_options.jpg)
+
+**Elige personaje con los retratos HD**
+
+![Elige personaje con los retratos HD](media/saturn_vs_hd/03_character_select.jpg)
+
+**Diálogo con letra vectorial y la cara HD (español)**
+
+![Diálogo con letra vectorial y la cara HD (español)](media/saturn_vs_hd/04_dialogue.jpg)
+
+**El Coliseo en panorámico 16:9 con fondos HD**
+
+![El Coliseo en panorámico 16:9 con fondos HD](media/saturn_vs_hd/05_colosseum.jpg)
+
+### HD Remaster en 16:9
+
+<p align="center">
+  <img src="media/screenshots/01_tavern.jpg" width="49%">
+  <img src="media/screenshots/02_tavern_fight.jpg" width="49%">
+  <img src="media/screenshots/03_town.jpg" width="49%">
+  <img src="media/screenshots/04_town_beam.jpg" width="49%">
+  <img src="media/screenshots/05_town_magic.jpg" width="49%">
+</p>
+
+---
+
 ## Hoja de ruta
 
 | Estado | Función |
