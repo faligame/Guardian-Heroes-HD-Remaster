@@ -1,4 +1,6 @@
-<h1 align="center">Guardian Heroes HD Remaster</h1>
+<p align="center">
+  <img src="media/logo.png" alt="Guardian Heroes HD Remaster" width="640">
+</p>
 
 <p align="center">
   <b>A native PC version of Guardian Heroes, rebuilt from the original Sega Saturn game and remastered in high definition.</b>
