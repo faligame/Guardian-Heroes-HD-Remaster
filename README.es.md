@@ -7,8 +7,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/estado-en%20desarrollo-ff6a00?style=for-the-badge" alt="Estado: en desarrollo">
-  <img src="https://img.shields.io/badge/plataforma-Windows-1f6feb?style=for-the-badge" alt="Plataforma: Windows">
+  <a href="https://github.com/faligame/Guardian-Heroes-HD-Remaster/releases/latest"><img src="https://img.shields.io/github/v/release/faligame/Guardian-Heroes-HD-Remaster?style=for-the-badge&label=descarga&color=2ea043" alt="Descarga"></a>
+  <img src="https://img.shields.io/badge/plataforma-Windows%20%7C%20Linux%20%7C%20Steam%20Deck%20%7C%20macOS%20(experimental)-1f6feb?style=for-the-badge" alt="Plataformas: Windows, Linux, Steam Deck, macOS (experimental)">
   <img src="https://img.shields.io/badge/proyecto%20fan-sin%20%C3%A1nimo%20de%20lucro-555?style=for-the-badge" alt="Proyecto fan sin ánimo de lucro">
 </p>
 
@@ -29,10 +29,32 @@ overlays del juego) se ha recompilado de forma estática en un ejecutable nativo
 con el que habla el juego (los chips de vídeo VDP1 y VDP2, el sonido y el CD) se ha reescrito de forma nativa para PC.
 Eso permite mejorar el juego desde dentro: gráficos HD, panorámico, letras nuevas e idiomas.
 
-Este repositorio es la **casa pública del proyecto**: noticias, capturas y avances. No contiene código fuente,
-ejecutables ni datos del juego.
+Este repositorio es la **casa pública del proyecto**: noticias, capturas, avances y las **descargas** (en
+[Releases](https://github.com/faligame/Guardian-Heroes-HD-Remaster/releases/latest)). No contiene código fuente ni datos del juego: necesitas tu propio disco.
 
 > ⭐ Dale una **estrella** y pulsa 👁️ **Watch** para seguir el desarrollo.
+
+---
+
+## Descarga
+
+**[⬇️ Descarga la última versión](https://github.com/faligame/Guardian-Heroes-HD-Remaster/releases/latest)** — v0.1.0, la primera versión pública.
+
+| Sistema | Paquete | Notas |
+|---|---|---|
+| Windows 10/11 de 64 bits | `win64.zip` | Descomprímelo y abre **GHLauncher.exe** |
+| Linux x86_64 | `linux-x86_64.tar.gz` o `.AppImage` | |
+| Steam Deck | `.AppImage` | Añádelo a Steam como *juego que no es de Steam*. Aún sin probar en una Deck real |
+| macOS | `macos-universal.zip` | **Experimental y sin probar**, todavía sin launcher |
+
+**Necesitas** tu propia imagen del disco *Guardian Heroes* (USA) en **.cue + .bin** y una tarjeta gráfica con
+**Vulkan**. El launcher comprueba tu disco, copia sus datos y te ofrece el **pack HD gratuito** (~500 MB, cifrado y
+ligado a tu disco). Las actualizaciones del juego y del pack llegan desde el launcher o desde el menú del juego.
+
+En la v0.1 los personajes, enemigos y efectos se ven todavía como en la Saturn: su versión HD llegará en una
+actualización del pack HD. Windows puede avisar con *«Windows protegió su PC»* (no hay certificado de firma de pago):
+*Más información* → *Ejecutar de todas formas*. Las notas completas y los problemas conocidos están en la
+[página de la versión](https://github.com/faligame/Guardian-Heroes-HD-Remaster/releases/latest).
 
 ---
 
@@ -44,9 +66,8 @@ ejecutables ni datos del juego.
 - **Sin emulación**: el vídeo, el sonido y el CD de la Saturn están reconstruidos como código nativo de PC, no emulados
   ciclo a ciclo.
 - **Renderizado con Vulkan** a alta resolución interna, en ventana o a pantalla completa.
-- **Tu disco, importado una sola vez.** La primera vez, el juego te pide la imagen de tu propio disco (.cue, .bin o
-  .iso), comprueba por su huella que es el juego correcto y copia sus datos junto al juego. Después arranca
-  directamente, sin el disco.
+- **Tu disco, importado una sola vez.** El launcher te pide la imagen de tu propio disco (.cue + .bin), comprueba por
+  su huella que es el juego correcto y copia sus datos. Después el juego arranca directamente, sin el disco.
 
 ### 🎨 Remasterización HD
 - **Panorámico 16:9.** En los combates se ve más escenario a los lados (426×224 en lugar de 320×224); los menús y la
@@ -68,7 +89,8 @@ ejecutables ni datos del juego.
 
 ### ⚙️ Opciones de PC dentro del juego
 - **PC Options** está dentro del propio menú de opciones del juego: resolución, panorámico, pantalla completa, vsync,
-  idioma y los interruptores HD. Sin lanzadores externos.
+  idioma, los interruptores HD y las actualizaciones del juego y del pack HD. Un pequeño launcher instala el juego,
+  importa tu disco y descarga el pack HD.
 
 ---
 
@@ -126,13 +148,22 @@ ejecutables ni datos del juego.
 | 🚧 | Personajes, enemigos y efectos en HD |
 | 🚧 | Retratos de diálogo en HD, redibujados a partir del arte oficial |
 | 🚧 | Interfaz (HUD) y menús en HD |
-| 🔜 | Animación de la intro remasterizada |
-| 🔜 | Instalador que monta el juego a partir de tu propio disco, sin distribuir nunca datos del juego |
-| 🔜 | Versión pública |
+| ✅ | Animación de la intro remasterizada |
+| ✅ | Launcher que instala el juego a partir de tu propio disco, sin distribuir nunca datos del juego |
+| ✅ | Actualizaciones firmadas del juego y del pack HD |
+| ✅ | Versiones para Linux y Steam Deck (macOS experimental) |
+| ✅ | Versión pública (v0.1.0) |
 
 ---
 
 ## Noticias
+
+**16-11-2026 — v0.1.0, la primera versión pública**
+- **Descárgala** para Windows, Linux / Steam Deck y macOS (experimental) desde [Releases](https://github.com/faligame/Guardian-Heroes-HD-Remaster/releases/latest).
+- **Launcher** que comprueba tu disco y descarga el **pack HD gratuito**: fondos, retratos, caras de los diálogos,
+  letras, logo y la **intro en HD**.
+- **Resoluciones estándar** hasta 3840×2160, en 16:9 o 16:10 (Steam Deck).
+- Los personajes, enemigos y efectos en HD llegarán en una actualización del pack HD.
 
 **15-11-2026 — Presentamos el proyecto**
 - **Todo el juego funciona de forma nativa** en Windows, sin emulador y sin código interpretado.
@@ -145,7 +176,7 @@ ejecutables ni datos del juego.
 ## Preguntas frecuentes
 
 **¿Se puede descargar?**
-Todavía no. El proyecto está en pleno desarrollo. Sigue este repositorio para enterarte de la primera versión.
+Sí: ya ha salido la v0.1.0. Descárgala desde [Releases](https://github.com/faligame/Guardian-Heroes-HD-Remaster/releases/latest).
 
 **¿Necesitaré el juego original?**
 Sí. Necesitarás tu propia copia legal de *Guardian Heroes* para Sega Saturn (versión norteamericana). Los datos del
